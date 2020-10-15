@@ -9,7 +9,7 @@ for (let i = 0; i < globals.valueLength; i++) {
 let inconsolata;
 
 function preload() {
-  inconsolata = loadFont('/fonts/Inconsolata-Bold.ttf');
+  inconsolata = loadFont('./fonts/Inconsolata-Bold.ttf');
 }
 
 const spacing = 0.14
